@@ -5,31 +5,13 @@
     <meta http-equiv="X-UA-Comptile" content="IE=edge" >
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
 
-    <script id="jquery" src=""></script>
+    <script type="text/javascript" src="public/JQuery-3.5.1/jquery.js"></script>
+    <script type="text/javascript" src="public/js/environment.js"></script>
     <title>Cusey Org</title>
 </head>
 <body>
 
-    <H1 id="users_type"></H1>
+    <H1> Login: <span id="users_type"></span> </H1>
 
 </body>
 </htm>
-<script>
-
-    var url = window.location.href;
-    console.log("Browser URL: " + url);  
-    
-    var environment = "";
-    var status_package_name = "";
-    
-    if("http://localhost:3000/" == url){
-       environment  =  "ADMIN";
-       
-    }else{
-       environment = "USERS";
-    }
-
-    console.log("Environment: " + environment); 
-    document.getElementById("users_type").innerHTML = environment ;
-
-</script>
