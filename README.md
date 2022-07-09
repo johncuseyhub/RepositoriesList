@@ -14,7 +14,7 @@ Had problems because browser would not load resourses.
 ## Cross Site Scripting (XSS)   
 [Cross Site Scripting (XSS - OWASP) ](https://owasp.org/www-community/attacks/xss/)    
 
-You can see the problems while using the DataTable Examples from local directory.      
+You can see the problem while using the DataTable Examples from local directory.      
 <img src="https://github.com/johncuseyhub/GettingStarted/blob/main/ProblemsImages/RepositoriesList/CrossSiteScripting.png" alt="John Cusey Sandbox Logo" height="300" width="500">
 
 
