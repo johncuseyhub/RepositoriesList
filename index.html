@@ -10,6 +10,9 @@
     <script type="text/javascript" src="public/JQuery-3.5.1/jquery.js"></script>
     <script type="text/javascript" src="public/js/environment.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="public/Bootstrap-5.2.0/bootstrap.css">
+    <script type="text/javascript" language="javascript" src="public/Bootstrap-5.2.0/bootstrap.js"></script>
+
     <link rel="stylesheet" type="text/css" href="public/DataTables-1.12.1/media/css/jquery.dataTables.css">
     <script type="text/javascript" language="javascript" src="public/DataTables-1.12.1/media/js/jquery.dataTables.js"></script>
 
@@ -20,13 +23,21 @@
 </head>
 <body>
 
-    <H1> Login: <span id="users_type"></span> </H1>
-
-    <img src="john_cusey_hub_logo.gif" alt="John Cusey Hub Logo" width="200" height="200" style="margin-left: 200px;"> 
-
 	<div class="container">
 		<section>
-			<h1>Repositories List</h1>
+
+            
+
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="john_cusey_hub_logo.gif" width="60" height="60" class="d-inline-block align-top" alt="">
+
+                  <p> <i><span id="users_type"></span></i></p>
+                  
+                </a>
+              </nav>
+
+			<h2 style="padding-top: 30px; padding-bottom: 50px; color: #C2371B"><i>Repositories List</i></h2>
 
 			<div class="demo-html">
 				<table id="datatable_repo_list" class="display" style="width:100%">
